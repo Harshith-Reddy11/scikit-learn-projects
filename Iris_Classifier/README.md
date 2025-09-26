@@ -58,7 +58,8 @@ Model Accuracy: 0.97
 ```
 
 **ML Pipeline Flowchart:**  
-Below is a visualization of the pipeline steps.  
+Below is a visualization of the pipeline steps.
+  
 ![ML Pipeline Flowchart](iris_ml_pipeline.png)
 
 ---
