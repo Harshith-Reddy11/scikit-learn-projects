@@ -1,7 +1,5 @@
 # scikit-learn-projects
 
-Perfect 👍 Here’s a clean **main repo README.md** for your `SCIKIT-LEARN-PROJECTS` folder:
-
 ---
 
 # 🤖 Scikit-Learn Projects
@@ -25,7 +23,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 ### 1️⃣ [Iris Classifier](./Iris_Classifier)
 
 - Built a classifier for the famous **Iris dataset** 🌸.
-- Trained a **Decision Tree model** to classify flowers.
+- Trained a **Logistic Regression** to classify flowers.
 - Includes an **ML pipeline flowchart** for easy understanding.
 - 📊 **Output:** Predicts flower species based on features.
 
