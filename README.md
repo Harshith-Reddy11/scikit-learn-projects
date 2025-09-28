@@ -33,6 +33,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Visualized accuracies with a **bar chart**.
 - 📊 **Output:** See which algorithm performs best.
 
+### 3️⃣ [KNN Feature Scaling](./KNN_Feature_Scaling)
+
+- Demonstrates the effect of **feature scaling** on **K-Nearest Neighbors (KNN)** accuracy.
+- Compares KNN performance with and without scaling using the Iris dataset.
+- Includes a **bar chart** visualizing accuracy improvement.
+- 📊 **Output:** Shows the importance of scaling for distance-based algorithms.
+
 ---
 
 ## 🚀 Getting Started
@@ -51,12 +58,14 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/` or `Model_Comparison/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, or `KNN_Feature_Scaling/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
      # or
      python model_comparison.py
+     # or
+     python knn_scaling.py
      ```
 
 ---
@@ -76,6 +85,11 @@ scikit-learn-projects/
 │   ├── model_comparison.png
 │   └── README.md
 │
+├── KNN_Feature_Scaling/
+│   ├── knn_scaling.py
+│   ├── knn_scaling_comparison.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -85,6 +99,7 @@ scikit-learn-projects/
 
 - **Day 1:** Built first classifier (Iris dataset).
 - **Day 2:** Compared ML models.
+- **Day 3:** Explored feature scaling with KNN.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
