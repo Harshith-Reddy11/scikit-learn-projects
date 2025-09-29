@@ -40,6 +40,12 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Includes a **bar chart** visualizing accuracy improvement.
 - 📊 **Output:** Shows the importance of scaling for distance-based algorithms.
 
+### 4️⃣ [SVM Iris Classifier](./SVM_Iris_Classifier)
+
+- Implements **Support Vector Machine (SVM)** for classifying the Iris dataset.
+- Applies feature scaling and visualizes SVM decision boundaries.
+- 📊 **Output:** Shows SVM accuracy and a plot of decision boundaries.
+
 ---
 
 ## 🚀 Getting Started
@@ -58,7 +64,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, or `KNN_Feature_Scaling/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, or `SVM_Iris_Classifier/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -66,6 +72,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python model_comparison.py
      # or
      python knn_scaling.py
+     # or
+     python svm_iris.py
      ```
 
 ---
@@ -90,6 +98,11 @@ scikit-learn-projects/
 │   ├── knn_scaling_comparison.png
 │   └── README.md
 │
+├── SVM_Iris_Classifier/
+│   ├── svm_iris.py
+│   ├── svm_decision_boundaries.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -100,6 +113,7 @@ scikit-learn-projects/
 - **Day 1:** Built first classifier (Iris dataset).
 - **Day 2:** Compared ML models.
 - **Day 3:** Explored feature scaling with KNN.
+- **Day 4:** Implemented SVM with decision boundary visualization.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
