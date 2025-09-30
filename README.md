@@ -46,6 +46,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Applies feature scaling and visualizes SVM decision boundaries.
 - 📊 **Output:** Shows SVM accuracy and a plot of decision boundaries.
 
+### 5️⃣ [Naive Bayes Classifier – Wine Dataset](./Naive_Bayes_Classifier)
+
+- Demonstrates **Naive Bayes**, **Decision Tree**, and **KNN** classifiers on the Wine dataset.
+- Compares training and testing accuracy for each algorithm.
+- Includes a **bar chart** visualizing classifier performance.
+- 📊 **Output:** Shows which model works best for wine classification.
+
 ---
 
 ## 🚀 Getting Started
@@ -64,7 +71,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, or `SVM_Iris_Classifier/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, or `Naive_Bayes_Classifier/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -74,6 +81,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python knn_scaling.py
      # or
      python svm_iris.py
+     # or
+     python naive_bayes.py
      ```
 
 ---
@@ -103,6 +112,11 @@ scikit-learn-projects/
 │   ├── svm_decision_boundaries.png
 │   └── README.md
 │
+├── Naive_Bayes_Classifier/
+│   ├── naive_bayes.py
+│   ├── wine_classifiers_comparison.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -114,6 +128,7 @@ scikit-learn-projects/
 - **Day 2:** Compared ML models.
 - **Day 3:** Explored feature scaling with KNN.
 - **Day 4:** Implemented SVM with decision boundary visualization.
+- **Day 5:** Compared classifiers on the Wine dataset.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
