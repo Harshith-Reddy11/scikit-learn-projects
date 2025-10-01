@@ -53,6 +53,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Includes a **bar chart** visualizing classifier performance.
 - 📊 **Output:** Shows which model works best for wine classification.
 
+### 6️⃣ [Digits Classification with PCA & KNN](./Digits_PCA_knn)
+
+- Applies **Principal Component Analysis (PCA)** for dimensionality reduction on the Digits dataset.
+- Classifies digits using **K-Nearest Neighbors (KNN)** on PCA-reduced features.
+- Visualizes the dataset in 2D using PCA.
+- 📊 **Output:** Shows KNN accuracy and a PCA projection plot.
+
 ---
 
 ## 🚀 Getting Started
@@ -71,7 +78,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, or `Naive_Bayes_Classifier/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, or `Digits_PCA_knn/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -83,6 +90,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python svm_iris.py
      # or
      python naive_bayes.py
+     # or
+     python digits_pca_knn.py
      ```
 
 ---
@@ -117,6 +126,11 @@ scikit-learn-projects/
 │   ├── wine_classifiers_comparison.png
 │   └── README.md
 │
+├── Digits_PCA_knn/
+│   ├── digits_pca_knn.py
+│   ├── digits_pca.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -129,6 +143,7 @@ scikit-learn-projects/
 - **Day 3:** Explored feature scaling with KNN.
 - **Day 4:** Implemented SVM with decision boundary visualization.
 - **Day 5:** Compared classifiers on the Wine dataset.
+- **Day 6:** Applied PCA and KNN on the Digits dataset.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
