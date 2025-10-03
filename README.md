@@ -60,6 +60,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Visualizes the dataset in 2D using PCA.
 - 📊 **Output:** Shows KNN accuracy and a PCA projection plot.
 
+### 7️⃣ [Iris Clustering with K-Means](./Iris_Kmeans)
+
+- Applies **K-Means clustering** to the Iris dataset to group flowers into clusters without labels.
+- Maps clusters to actual classes and evaluates clustering accuracy.
+- Visualizes clusters using **PCA**.
+- 📊 **Output:** Shows clustering accuracy and a PCA-based cluster plot.
+
 ---
 
 ## 🚀 Getting Started
@@ -78,7 +85,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, or `Digits_PCA_knn/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, or `Iris_Kmeans/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -92,6 +99,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python naive_bayes.py
      # or
      python digits_pca_knn.py
+     # or
+     python iris_kmeans.py
      ```
 
 ---
@@ -131,6 +140,11 @@ scikit-learn-projects/
 │   ├── digits_pca.png
 │   └── README.md
 │
+├── Iris_Kmeans/
+│   ├── iris_kmeans.py
+│   ├── iris_kmeans.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -144,6 +158,7 @@ scikit-learn-projects/
 - **Day 4:** Implemented SVM with decision boundary visualization.
 - **Day 5:** Compared classifiers on the Wine dataset.
 - **Day 6:** Applied PCA and KNN on the Digits dataset.
+- **Day 7:** Performed clustering with K-Means on Iris dataset.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
