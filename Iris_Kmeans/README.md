@@ -26,22 +26,23 @@ Iris_Kmeans/
 ## 🚀 How to Run
 
 1. **Navigate to the project folder:**
-    ```sh
-    cd Iris_Kmeans
-    ```
+   ```sh
+   cd Iris_Kmeans
+   ```
 2. **Run the script:**
-    ```sh
-    python iris_kmeans.py
-    ```
+   ```sh
+   python iris_kmeans.py
+   ```
 3. **View the results:**
-    - Console will print K-Means clustering accuracy.
-    - Cluster visualization saved as `iris_kmeans.png`.
+   - Console will print K-Means clustering accuracy.
+   - Cluster visualization saved as `iris_kmeans.png`.
 
 ---
 
 ## ✅ Example Output
 
 **Console:**
+
 ```
 K-Means Clustering Accuracy: 0.89
 ```
