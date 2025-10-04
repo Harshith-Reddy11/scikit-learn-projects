@@ -67,6 +67,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Visualizes clusters using **PCA**.
 - 📊 **Output:** Shows clustering accuracy and a PCA-based cluster plot.
 
+### 8️⃣ [Iris Hierarchical Clustering](./Iris_Hierarchical)
+
+- Demonstrates **Hierarchical Clustering** on the Iris dataset.
+- Visualizes the clustering process with a dendrogram.
+- Displays clusters in 2D space using **PCA**.
+- 📊 **Output:** Dendrogram and PCA-based cluster visualization.
+
 ---
 
 ## 🚀 Getting Started
@@ -85,7 +92,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, or `Iris_Kmeans/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, `Iris_Kmeans/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -101,6 +108,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python digits_pca_knn.py
      # or
      python iris_kmeans.py
+     # or
+     python iris_hierarchical.py
      ```
 
 ---
@@ -145,6 +154,12 @@ scikit-learn-projects/
 │   ├── iris_kmeans.png
 │   └── README.md
 │
+├── Iris_Hierarchical/
+│   ├── iris_hierarchical.py
+│   ├── iris_dendrogram.png
+│   ├── iris_clusters.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -159,6 +174,7 @@ scikit-learn-projects/
 - **Day 5:** Compared classifiers on the Wine dataset.
 - **Day 6:** Applied PCA and KNN on the Digits dataset.
 - **Day 7:** Performed clustering with K-Means on Iris dataset.
+- **Day 8:** Explored hierarchical clustering and dendrograms.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
