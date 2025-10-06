@@ -74,6 +74,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Displays clusters in 2D space using **PCA**.
 - 📊 **Output:** Dendrogram and PCA-based cluster visualization.
 
+### 9️⃣ [Feature Selection & Regularization – Diabetes Dataset](./Feature_Selection_Regularization)
+
+- Demonstrates the impact of **regularization** on feature selection and model performance using the Diabetes dataset.
+- Compares **Linear Regression**, **Ridge Regression**, and **Lasso Regression**.
+- Visualizes coefficient shrinkage and mean squared error.
+- 📊 **Output:** Coefficient comparison plot and MSE results.
+
 ---
 
 ## 🚀 Getting Started
@@ -92,7 +99,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, `Iris_Kmeans/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, `Iris_Kmeans/`, `Iris_Hierarchical/`, or `Feature_Selection_Regularization/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -110,6 +117,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python iris_kmeans.py
      # or
      python iris_hierarchical.py
+     # or
+     python regularization_models.py
      ```
 
 ---
@@ -160,6 +169,11 @@ scikit-learn-projects/
 │   ├── iris_clusters.png
 │   └── README.md
 │
+├── Feature_Selection_Regularization/
+│   ├── regularization_models.py
+│   ├── regularization_comparison.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -175,6 +189,7 @@ scikit-learn-projects/
 - **Day 6:** Applied PCA and KNN on the Digits dataset.
 - **Day 7:** Performed clustering with K-Means on Iris dataset.
 - **Day 8:** Explored hierarchical clustering and dendrograms.
+- **Day 9:** Investigated regularization and feature selection on the Diabetes dataset.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
