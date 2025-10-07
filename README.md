@@ -81,6 +81,13 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
 - Visualizes coefficient shrinkage and mean squared error.
 - 📊 **Output:** Coefficient comparison plot and MSE results.
 
+### 🔟 [Model Evaluation with Cross-Validation – Iris Dataset](./Model_Evaluation_Cross_Validation)
+
+- Demonstrates model evaluation using **cross-validation** on the Iris dataset.
+- Compares **Logistic Regression** and **SVM** using 5-fold cross-validation.
+- Visualizes accuracy distribution with a boxplot.
+- 📊 **Output:** Cross-validation scores and boxplot visualization.
+
 ---
 
 ## 🚀 Getting Started
@@ -99,7 +106,7 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
    ```
 
 3. **Run a project:**
-   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, `Iris_Kmeans/`, `Iris_Hierarchical/`, or `Feature_Selection_Regularization/`)
+   - Navigate to a project folder (e.g., `Iris_Classifier/`, `Model_Comparison/`, `KNN_Feature_Scaling/`, `SVM_Iris_Classifier/`, `Naive_Bayes_Classifier/`, `Digits_PCA_knn/`, `Iris_Kmeans/`, `Iris_Hierarchical/`, `Feature_Selection_Regularization/`, or `Model_Evaluation_Cross_Validation/`)
    - Run the Python script:
      ```sh
      python iris_classifier.py
@@ -119,6 +126,8 @@ The goal is to learn ML through **project-based learning** and maintain a **dail
      python iris_hierarchical.py
      # or
      python regularization_models.py
+     # or
+     python cross_validation_demo.py
      ```
 
 ---
@@ -174,6 +183,11 @@ scikit-learn-projects/
 │   ├── regularization_comparison.png
 │   └── README.md
 │
+├── Model_Evaluation_Cross_Validation/
+│   ├── cross_validation_demo.py
+│   ├── cv_results.png
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -190,6 +204,7 @@ scikit-learn-projects/
 - **Day 7:** Performed clustering with K-Means on Iris dataset.
 - **Day 8:** Explored hierarchical clustering and dendrograms.
 - **Day 9:** Investigated regularization and feature selection on the Diabetes dataset.
+- **Day 10:** Evaluated models using cross-validation.
 - **Next:** More datasets, advanced models, and visualizations coming soon!
 
 ---
